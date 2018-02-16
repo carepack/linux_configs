@@ -1,0 +1,118 @@
+// vim:ts=4:sw=4:et
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 536,
+       "width": 816,
+       "x": 12,
+       "y": 792
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 530,
+               "width": 810,
+               "x": 0,
+               "y": 0
+            },
+            "name": "bash",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^URxvt$",
+                "instance": "^cmus$",
+                "title": "^bash$"
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 1282,
+       "width": 1686,
+       "x": 872,
+       "y": 42
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 530,
+               "width": 810,
+               "x": 0,
+               "y": 0
+            },
+            "name": "cava",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^URxvt$",
+                "instance": "^cava$"
+               // "title": "^cava$"
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 712,
+       "width": 819,
+       "x": 11,
+       "y": 44
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 600,
+               "width": 800,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Spotify",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^Spotify$"
+               // "instance": "^spotify$",
+               // "title": "^Spotify$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

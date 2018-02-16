@@ -1,0 +1,164 @@
+// vim:ts=4:sw=4:et
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 422,
+       "width": 1202,
+       "x": 1340,
+       "y": 490
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 406,
+               "width": 606,
+               "x": 1950,
+               "y": 490
+            },
+            "name": "WhatsApp",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Chromium$",
+                "instance": "^crx_hnpfjngllnobngcgfapefoaidbinmjnm$",
+               // "title": "^WhatsApp$",
+                "transient_for": "^$",
+                "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 412,
+       "width": 1202,
+       "x": 1344,
+       "y": 39
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 356,
+               "width": 1106,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Wire",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^Wire$",
+                "instance": "^wire$",
+                "title": "^Wire$",
+                "transient_for": "^$",
+                "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 456,
+       "width": 1199,
+       "x": 1343,
+       "y": 950
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 360,
+               "width": 653,
+               "x": 3,
+               "y": 40
+            },
+            "name": "Signal",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Chromium$",
+                "instance": "^crx_bikioccmkafdpakkkcpdbppfkghcmihk$",
+               // "title": "^Signal$",
+                "transient_for": "^$",
+                "window_role": "^app$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 1382,
+       "width": 1129,
+       "x": 3,
+       "y": 40
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 856,
+               "width": 1253,
+               "x": 673,
+               "y": 40
+            },
+            "marks": [
+               "tweetdeck"
+            ],
+            "name": "TweetDeck",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Chromium$",
+                "instance": "^crx_ddiddklncfgbfaaahngklemobghhjkim$",
+               // "title": "^TweetDeck$",
+                "transient_for": "^$",
+                "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
